@@ -1,0 +1,52 @@
+.section{
+    //height: 100vh;
+    width: 100%;
+}
+
+.background--one{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .block-section--one{
+        width: 100%;
+        display: block;
+        //justify-content: center;
+        text-align: center;
+
+        & h1{
+            font-weight: 400;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.background--two{
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    & .block-section--two{
+        margin-top: 80px;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+
+        & h1{
+            font-weight: 400;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+

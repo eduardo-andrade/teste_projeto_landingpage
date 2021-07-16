@@ -1,5 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.main-left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.section {
+  width: 100%;
+}
+
+.background--one {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background--one .block-section--one {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.background--one .block-section--one h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.background--two {
+  background-size: cover;
+  background-attachment: local;
+  background-position: center;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.background--two .block-section--two {
+  margin-top: 80px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.background--two .block-section--two h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
