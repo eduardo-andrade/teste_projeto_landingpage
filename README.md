@@ -14,8 +14,7 @@ Para iniciar em modo de desenvolvimento:
 
 Para instalar o node [clique aqui](https://nodejs.org/en/)
 
-## Projeto baseado e inspirado no exercício proposto do Professor Douglas Morais
-## nas aulas de "Boas Práticas"
+## Projeto baseado e inspirado no exercício proposto do Professor Douglas Morais nas aulas de "Boas Práticas"
 
 ## Candidato Luiz Eduardo da Cunha Andrade
 ## edueduu030@gmail.com
