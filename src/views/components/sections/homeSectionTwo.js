@@ -11,7 +11,7 @@ let HomeSectionTwo = `
             <h2>Para ofertas receber, cadastrar e-mail você precisa!</h2>
             <br><br>
             <form>
-            <input size="40" class="form" type="email" name="email" id="email">
+            <input class="form" type="email" name="email" id="email">
             <button class="button" onclick="store()" type="button">Cadastrar e-mail</button>
             <script  type="text/javascript">
               function store(){
