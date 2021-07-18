@@ -9,9 +9,10 @@ let HomeSectionTwo = `
             <h2>A maior promoção do ano de produtos licenciados!</h2>
             <br><br><br><br><br>
             <h2>Para ofertas receber, cadastrar e-mail você precisa!</h2>
+            <br><br>
             <form>
-            E-mail:<input type="email" name="email" id="email">
-            <button onclick="store()" type="button">Cadastrar e-mail</button>
+            <input size="40" class="form" type="email" name="email" id="email">
+            <button class="button" onclick="store()" type="button">Cadastrar e-mail</button>
             <script  type="text/javascript">
               function store(){
                  var inputEmail= document.getElementById("email");
